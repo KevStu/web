@@ -1,0 +1,64 @@
+html{ margin: 0 ; padding: 0;}
+body {
+    background-color: #DA0037;
+}
+#header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+#header h2{
+    color: white;
+}
+#wrapper{
+    display: flex;
+    position: relative;
+
+}
+#menu {
+   
+    width: 200px;
+    height: 96%;
+    background-color: wheat;
+    padding: 30px ;
+}
+*{
+    text-decoration: none;
+    list-style: none;
+}
+#menu ul{
+    margin: 20px;
+    padding: 20px;
+    font-family:fantasy;
+    font-size: 20px;
+}
+#menu ul{
+    padding: 15px;
+    border-bottom: 10px;
+    border-top: 10px;
+}
+#menu a{
+    color: black;
+    display: block;
+}
+#menu a:hover{
+    color: #DA0037;
+    text-decoration: none;
+
+}
+#content{
+    width: 96%;
+    padding: 8px;
+    min-height: 600px;
+    margin: 4px auto;
+    background-color: white;
+}
+#second-submenu{
+    height: 24px;
+    width: 98%;
+}
+#third-submenu{
+   height: 24px;
+    width: 98%;
+    text-align: right;
+}
